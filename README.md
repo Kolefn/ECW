@@ -13,13 +13,13 @@ Entity-Component-Wrapper is a slight improvement on [Entity-Component](https://e
 
 ECW offers the same benefits but abstracts away the Unity GameObject, utilities (Time, Debug, Vector3, ect), and Components. It also makes light (as light as possible!) use of messaging and callbacks for inter-component communication and for updating components that need to be in-touch with the game loop.
 
-# ECW Benefits
+### ECW Benefits
 1. Extendable
 2. Abstracted From Unity
 3. Organized
 4. Fun
 
-# ECW Issues
+### ECW Issues
 1. Messaging and Callbacks are gross.
 2. Abstracting Unity requires a lot of boilerplate code. 
 
