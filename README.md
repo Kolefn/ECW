@@ -9,17 +9,17 @@ MVC in Unity attempts to seperate data,logic, and visuals of your game. To go a 
 
 How do I give a character a new ability like Fireblast? It's similar to Frostbolt but has a different animation, mana-cost, cast-time, ect. I will end up rewriting a lot of duplicate model & view code, and modifying one or more controllers. I'm not saying this is bad or unclean (it can be), but it doesn't sound fun. I believe ECW offers a solution to these problems.
 
-Entity-Component-Wrapper is a slight improvement on [Entity-Component](https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system). EC is the core pattern of Unity. The thing that attracted me to Unity was the abilityt to simply plugin components on the fly. You can create new behaviors and looks just by mixing and matching components. 
+Entity-Component-Wrapper is a slight improvement on [Entity-Component](https://en.wikipedia.org/wiki/Entity%E2%80%93component%E2%80%93system). EC is the core pattern of Unity. The thing that attracted me to Unity was the ability to simply plugin components on the fly. You can create new behaviors and looks just by mixing and matching components. 
 
 ECW offers the same benefits but abstracts away the Unity GameObject, utilities (Time, Debug, Vector3, ect), and Components. It also makes light (as light as possible!) use of messaging and callbacks for inter-component communication and for updating components that need to be in-touch with the game loop.
 
-#ECW Benefits
+# ECW Benefits
 1. Extendable
 2. Abstracted From Unity
 3. Organized
 4. Fun
 
-#ECW Issues
+# ECW Issues
 1. Messaging and Callbacks are gross.
 2. Abstracting Unity requires a lot of boilerplate code. 
 
