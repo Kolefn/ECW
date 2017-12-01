@@ -1,6 +1,7 @@
 # Entity-Component-Wrapper
 > A design pattern for Unity.
-
+![ECW Diagram]
+(https://kolenunley.com/portfolio/ECW_Diagram.jpg)
 I was excited when I started working with Unity. It all seemed so easy and simple. That was until a week or so into development. Once my project reached a certain complexity, the 'Cowboy Coding' pattern I was following, which is common within the Unity community, ceased to be so easy and simple. My code was a mess of inheritance and huge over-reaching classes. So I did some research and discovered the [Model-View-Controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern.
 
 I had used MVC before, but I was surprised to see people were using it in Unity. I thought this would be the solution to my problems. I restarted the development of my game and followed the MVC guidelines as strictly as I could. Overall, this worked well and improved the design 10x. However, eventually I came to some road blocks and had to rethink my design. 
